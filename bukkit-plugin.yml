@@ -1,0 +1,6 @@
+name: ${project.name}
+version: ${git.commit.id.abbrev}
+description: ${project.description}
+author: ${bukkit.plugin.authors}
+website: ${project.url}
+main: ${bukkit.plugin.main}
