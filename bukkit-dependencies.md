@@ -51,6 +51,10 @@
 #### 4.0-SNAPSHOT
 
 ```xml
+<repository>
+    <id>dmulloy2-repo</id>
+    <url>http://repo.dmulloy2.net/content/repositories/snapshots/</url>
+</repository>
 <dependency>
     <groupId>com.comphenix.protocol</groupId>
     <artifactId>ProtocolLib-API</artifactId>
