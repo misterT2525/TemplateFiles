@@ -45,7 +45,7 @@
     <artifactId>ProtocolLib</artifactId>
     <version>3.6.5</version>
     <scope>provided</scope>
- </dependency>
+</dependency>
 ```
 
 #### 4.0-SNAPSHOT
@@ -56,5 +56,5 @@
     <artifactId>ProtocolLib-API</artifactId>
     <version>4.0-SNAPSHOT</version>
     <scope>provided</scope>
- </dependency>
+</dependency>
 ```
