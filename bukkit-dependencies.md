@@ -47,3 +47,14 @@
     <scope>provided</scope>
  </dependency>
 ```
+
+#### 4.0-SNAPSHOT
+
+```xml
+<dependency>
+    <groupId>com.comphenix.protocol</groupId>
+    <artifactId>ProtocolLib-API</artifactId>
+    <version>4.0-SNAPSHOT</version>
+    <scope>provided</scope>
+ </dependency>
+```
