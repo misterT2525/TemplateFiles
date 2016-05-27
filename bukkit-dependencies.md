@@ -33,7 +33,7 @@
 </repository>
 ```
 
-### ProtocolLib (3.6.5)
+### ProtocolLib (4.0.0)
 
 [Source](https://github.com/aadnk/ProtocolLib) |
 [SpigotMC](https://www.spigotmc.org/resources/protocollib.1997/) |
@@ -42,23 +42,8 @@
 ```xml
 <dependency>
     <groupId>com.comphenix.protocol</groupId>
-    <artifactId>ProtocolLib</artifactId>
-    <version>3.6.5</version>
-    <scope>provided</scope>
-</dependency>
-```
-
-#### 4.0-SNAPSHOT
-
-```xml
-<repository>
-    <id>dmulloy2-repo</id>
-    <url>http://repo.dmulloy2.net/content/repositories/snapshots/</url>
-</repository>
-<dependency>
-    <groupId>com.comphenix.protocol</groupId>
     <artifactId>ProtocolLib-API</artifactId>
-    <version>4.0-SNAPSHOT</version>
+    <version>4.0</version>
     <scope>provided</scope>
 </dependency>
 ```
