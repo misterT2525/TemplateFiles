@@ -19,19 +19,6 @@
         <bukkit.plugin.authors>mrT_japan(@misterT2525)</bukkit.plugin.authors>
     </properties>
 
-    <organization>
-        <name>misterT Group</name>
-        <url>http://www.mistertgroup.net/</url>
-    </organization>
-    <developers>
-        <developer>
-            <id>misterT2525</id>
-            <name>mister.T</name>
-            <email>info@mistertgroup.net</email>
-            <url>https://mistert2525.net/</url>
-        </developer>
-    </developers>
-
     <dependencies>
         <dependency>
             <groupId>org.spigotmc</groupId>
