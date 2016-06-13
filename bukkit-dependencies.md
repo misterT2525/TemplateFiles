@@ -9,7 +9,7 @@
 </repository>
 ```
 
-### WorldEdit (6.1)
+### WorldEdit (6.1.2)
 
 [Website](https://www.enginehub.org/worldedit) |
 [Source](https://github.com/sk89q/WorldEdit) |
@@ -19,7 +19,7 @@
 <dependency>
     <groupId>com.sk89q.worldedit</groupId>
     <artifactId>worldedit-bukkit</artifactId>
-    <version>6.1</version>
+    <version>6.1.2</version>
     <scope>provided</scope>
 </dependency>
 ```
