@@ -4,18 +4,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.mistertgroup</groupId>
+    <groupId>net.mistert2525</groupId>
     <artifactId>templatefiles</artifactId>
     <version>0.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>TemplateFiles</name>
-    <url>http://www.mistertgroup.net/</url>
+    <url>https://mistert2525.net/</url>
     <description>Template Files for My Projects</description>
     <inceptionYear>2016</inceptionYear>
 
     <properties>
-        <bukkit.plugin.main>net.mistertgroup.templatefiles.TemplateFilesPlugin</bukkit.plugin.main>
+        <bukkit.plugin.main>net.mistert2525.templatefiles.TemplateFilesPlugin</bukkit.plugin.main>
         <bukkit.plugin.authors>mrT_japan(@misterT2525)</bukkit.plugin.authors>
     </properties>
 
