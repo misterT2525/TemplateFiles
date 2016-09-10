@@ -1,43 +1,36 @@
 # Dependencies for Bukkit Plugin
 
-## [sk89q's Repository](https://maven.sk89q.com/repo/)
+## [WorldEdit](https://www.enginehub.org/worldedit) (6.1.3)
+
+[GitHub](https://github.com/sk89q/WorldEdit) |
+[Bukkit Dev](http://dev.bukkit.org/bukkit-plugins/worldedit/) |
+[Builds](http://builds.enginehub.org/job/worldedit) |
+[Travis-CI](https://travis-ci.org/sk89q/WorldEdit) |
+[Maven Repository](https://maven.sk89q.com/repo/) |
+[YouTrack](http://dev.enginehub.org/youtrack/issues/WORLDEDIT) |
+[Wiki](http://wiki.sk89q.com/wiki/WorldEdit)
 
 ```xml
+<dependency>
+    <groupId>com.sk89q.worldedit</groupId>
+    <artifactId>worldedit-bukkit</artifactId>
+    <version>6.1.3-SNAPSHOT</version>
+    <scope>provided</scope>
+</dependency>
 <repository>
     <id>sk89q-repo</id>
     <url>https://maven.sk89q.com/repo/</url>
 </repository>
 ```
 
-### WorldEdit (6.1.2)
+## [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) (4.0.2)
 
-[Website](https://www.enginehub.org/worldedit) |
-[Source](https://github.com/sk89q/WorldEdit) |
-[Bukkit Dev](http://dev.bukkit.org/bukkit-plugins/worldedit/)
-
-```xml
-<dependency>
-    <groupId>com.sk89q.worldedit</groupId>
-    <artifactId>worldedit-bukkit</artifactId>
-    <version>6.1.2</version>
-    <scope>provided</scope>
-</dependency>
-```
-
-## [dmumlloy2's Repository](http://repo.dmulloy2.net/#view-repositories;releases~browsestorage)
-
-```xml
-<repository>
-    <id>dmulloy2-repo</id>
-    <url>http://repo.dmulloy2.net/content/repositories/releases/</url>
-</repository>
-```
-
-### ProtocolLib (4.0.0)
-
-[Source](https://github.com/aadnk/ProtocolLib) |
+[GitHub](https://github.com/dmulloy2/ProtocolLib) |
 [SpigotMC](https://www.spigotmc.org/resources/protocollib.1997/) |
-[Bukkit Dev](http://dev.bukkit.org/bukkit-plugins/protocollib/)
+[Bukkit Dev](http://dev.bukkit.org/bukkit-plugins/protocollib/) |
+[Jenkins](http://ci.dmulloy2.net/job/ProtocolLib/) |
+[Travis-CI](https://travis-ci.org/dmulloy2/ProtocolLib) |
+[Nexus](http://repo.dmulloy2.net/#view-repositories;releases%7Ebrowsestorage)
 
 ```xml
 <dependency>
@@ -46,4 +39,23 @@
     <version>4.0</version>
     <scope>provided</scope>
 </dependency>
+<repository>
+    <id>dmulloy2-repo</id>
+    <url>http://repo.dmulloy2.net/content/repositories/releases/</url>
+</repository>
+```
+
+### Snapshot Version (4.1.0-SNAPSHOT)
+
+```xml
+<dependency>
+    <groupId>com.comphenix.protocol</groupId>
+    <artifactId>ProtocolLib-API</artifactId>
+    <version>4.1.0-SNAPSHOT</version>
+    <scope>provided</scope>
+</dependency>
+<repository>
+    <id>dmulloy2-repo</id>
+    <url>http://repo.dmulloy2.net/content/repositories/snapshots/</url>
+</repository>
 ```
