@@ -6,7 +6,7 @@
 
     <groupId>net.mistert2525</groupId>
     <artifactId>templatefiles</artifactId>
-    <version>0.0.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>TemplateFiles</name>
@@ -17,6 +17,8 @@
     <properties>
         <bukkit.plugin.main>net.mistert2525.templatefiles.TemplateFilesPlugin</bukkit.plugin.main>
         <bukkit.plugin.authors>mrT_japan(@misterT2525)</bukkit.plugin.authors>
+
+        <project.build.number>unknown</project.build.number>
     </properties>
 
     <dependencies>
