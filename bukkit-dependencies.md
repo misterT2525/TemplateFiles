@@ -23,7 +23,7 @@
 </repository>
 ```
 
-## [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) (4.0.2)
+## [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) (4.1.0)
 
 [GitHub](https://github.com/dmulloy2/ProtocolLib) |
 [SpigotMC](https://www.spigotmc.org/resources/protocollib.1997/) |
@@ -36,26 +36,11 @@
 <dependency>
     <groupId>com.comphenix.protocol</groupId>
     <artifactId>ProtocolLib-API</artifactId>
-    <version>4.0</version>
+    <version>4.1.0</version>
     <scope>provided</scope>
 </dependency>
 <repository>
     <id>dmulloy2-repo</id>
     <url>http://repo.dmulloy2.net/content/repositories/releases/</url>
-</repository>
-```
-
-### Snapshot Version (4.1.0-SNAPSHOT)
-
-```xml
-<dependency>
-    <groupId>com.comphenix.protocol</groupId>
-    <artifactId>ProtocolLib-API</artifactId>
-    <version>4.1.0-SNAPSHOT</version>
-    <scope>provided</scope>
-</dependency>
-<repository>
-    <id>dmulloy2-repo</id>
-    <url>http://repo.dmulloy2.net/content/repositories/snapshots/</url>
 </repository>
 ```
