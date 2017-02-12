@@ -1,6 +1,6 @@
 # Dependencies for Bukkit Plugin
 
-## [WorldEdit](https://www.enginehub.org/worldedit) (6.1.3)
+## [WorldEdit](https://www.enginehub.org/worldedit) (6.1.5)
 
 [GitHub](https://github.com/sk89q/WorldEdit) |
 [Bukkit Dev](http://dev.bukkit.org/bukkit-plugins/worldedit/) |
@@ -14,7 +14,7 @@
 <dependency>
     <groupId>com.sk89q.worldedit</groupId>
     <artifactId>worldedit-bukkit</artifactId>
-    <version>6.1.3-SNAPSHOT</version>
+    <version>6.1.5</version>
     <scope>provided</scope>
 </dependency>
 <repository>
