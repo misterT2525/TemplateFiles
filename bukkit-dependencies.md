@@ -23,7 +23,7 @@
 </repository>
 ```
 
-## [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) (4.1.0)
+## [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) (4.2.0)
 
 [GitHub](https://github.com/dmulloy2/ProtocolLib) |
 [SpigotMC](https://www.spigotmc.org/resources/protocollib.1997/) |
@@ -36,7 +36,7 @@
 <dependency>
     <groupId>com.comphenix.protocol</groupId>
     <artifactId>ProtocolLib-API</artifactId>
-    <version>4.1.0</version>
+    <version>4.2.0</version>
     <scope>provided</scope>
 </dependency>
 <repository>
